@@ -141,7 +141,7 @@
             "cell_measures": "None", 
             "long_name": "Near-Surface Wind Speed", 
             "comment": "near-surface (usually, 10 meters) wind speed.", 
-            "dimensions": "longitude latitude time  height10m", 
+            "dimensions": "longitude latitude time height10m", 
             "out_name": "sfcWind", 
             "type": "real", 
             "positive": "", 
