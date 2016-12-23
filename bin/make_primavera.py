@@ -163,6 +163,13 @@ def main():
         # add the Header dictionary
         output['Header'] = generate_header(table)
 
+        # add the axis_entry section for CMOR version < 3.2
+        axes_path = os.path.abspath(
+            os.path.join(current_dir, '..', 'Tables', 'CMIP6_coordinate.json'))
+        with open(axes_path) as axes_file:
+            axes_data = json.load(axes_file)
+        output['axis_entry'] = axes_data['axis_entry']
+
         # add the variables
         output['variable_entry'] = {}
         generate_variable_entry(req_sheet, output['variable_entry'])
