@@ -125,9 +125,8 @@ def generate_variable_entry(req_sheet, output):
                 cmpt_value = ''
             var_dict[cmpt] = cmpt_value
 
-        # fix the positive attribute
-        if var_dict['positive'] == 'None':
-            var_dict['positive'] = ''
+        # fix any broken units
+        var_dict['units'] = _fix_units(var_dict['units'])
 
         # add the remaining additional components
         var_dict['out_name'] = cmor_name
@@ -196,7 +195,38 @@ def _get_cell(row, column_name):
                     'cmor_name': 11, 'modeling_realm': 12, 'frequency': 13,
                     'cell_measures': 14}
 
-    return row[column_names[column_name]].value
+    cell_str = str(row[column_names[column_name]].value)
+
+    # replace any white space by a single space (multiple spaces confuse CMOR)
+    cell_str = ' '.join(cell_str.split())
+
+    # Replace None with an empty string as required by CMOR
+    if cell_str == 'None':
+        cell_str = ''
+
+    return cell_str
+
+
+def _fix_units(units):
+    """
+    Some units in the spreadsheet are invalid. This function checks for any of
+    these known problems and returns the corrected units, or the original units
+    if there were no known problems.
+
+    :param str units: the original unit string
+    :returns: the corrected units
+    """
+    corrections = {
+        'degree_C': 'degree_Celsius',
+        'degree_C m s-1': 'degree_Celsius m s-1',
+        '1/s': 's-1',
+        'kg/s': 'kg s-1'
+    }
+
+    if units in corrections:
+        return corrections[units]
+    else:
+        return units
 
 
 if __name__ == '__main__':

@@ -140,7 +140,7 @@
             "cell_methods": "time: mean area: mean where sea", 
             "cell_measures": "area: areacello", 
             "long_name": "Tendency of sea water potential temperature", 
-            "comment": "None", 
+            "comment": "", 
             "dimensions": "longitude latitude time", 
             "out_name": "opottemptend", 
             "type": "real", 
