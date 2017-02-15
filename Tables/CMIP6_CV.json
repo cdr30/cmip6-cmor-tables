@@ -566,7 +566,8 @@
             ]
         ],
         "mip_era":[
-            "CMIP6"
+            "CMIP6",
+            "PRIMAVERA"
         ],
         "experiment_id":{
             "ssp245-GHG":{
