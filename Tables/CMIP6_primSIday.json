@@ -29,7 +29,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "sistrxdtop": {
             "modeling_realm": "seaIce", 
@@ -46,7 +47,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "siacrossline": {
             "modeling_realm": "seaIce", 
@@ -63,7 +65,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "siu": {
             "modeling_realm": "seaIce", 
@@ -80,7 +83,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "sistrydtop": {
             "modeling_realm": "seaIce", 
@@ -97,7 +101,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "sitimefrac": {
             "modeling_realm": "seaIce", 
@@ -114,7 +119,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "sistryubot": {
             "modeling_realm": "seaIce", 
@@ -131,7 +137,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "sistrxubot": {
             "modeling_realm": "seaIce", 
@@ -148,7 +155,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "siforceintstry": {
             "modeling_realm": "seaIce", 
@@ -165,7 +173,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "siforceintstrx": {
             "modeling_realm": "seaIce", 
@@ -182,7 +191,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "siv": {
             "modeling_realm": "seaIce", 
@@ -199,7 +209,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }
     }
 }

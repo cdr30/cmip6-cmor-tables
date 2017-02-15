@@ -29,7 +29,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "rsds": {
             "modeling_realm": "atmos", 
@@ -46,7 +47,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "tas": {
             "modeling_realm": "atmos", 
@@ -63,7 +65,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "uas": {
             "modeling_realm": "atmos", 
@@ -80,7 +83,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "wsgsmax100": {
             "modeling_realm": "atmos", 
@@ -97,7 +101,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.1"
         }, 
         "rsdsdiff": {
             "modeling_realm": "atmos", 
@@ -114,7 +119,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "ps": {
             "modeling_realm": "atmos", 
@@ -131,7 +137,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "va50m": {
             "modeling_realm": "atmos", 
@@ -148,7 +155,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "rsdsmax": {
             "modeling_realm": "atmos", 
@@ -165,7 +173,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "rsdsdiffmax": {
             "modeling_realm": "atmos", 
@@ -182,7 +191,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "vas": {
             "modeling_realm": "atmos", 
@@ -199,7 +209,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "va100m": {
             "modeling_realm": "atmos", 
@@ -216,7 +227,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "psl": {
             "modeling_realm": "atmos", 
@@ -233,7 +245,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "wind50max": {
             "modeling_realm": "atmos", 
@@ -250,7 +263,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.1"
         }, 
         "clt": {
             "modeling_realm": "atmos", 
@@ -267,7 +281,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "rsdsdiffmin": {
             "modeling_realm": "atmos", 
@@ -284,7 +299,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "wind100max": {
             "modeling_realm": "atmos", 
@@ -301,7 +317,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.1"
         }, 
         "wsgsmax": {
             "modeling_realm": "atmos", 
@@ -318,7 +335,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.1"
         }, 
         "ua100m": {
             "modeling_realm": "atmos", 
@@ -335,7 +353,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "sfcWindmin": {
             "modeling_realm": "atmos", 
@@ -352,7 +371,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "sfcWindmax": {
             "modeling_realm": "atmos", 
@@ -369,7 +389,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.1"
         }, 
         "wsgsmax50": {
             "modeling_realm": "atmos", 
@@ -386,7 +407,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.1"
         }, 
         "wind50min": {
             "modeling_realm": "atmos", 
@@ -403,7 +425,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "wind100min": {
             "modeling_realm": "atmos", 
@@ -420,7 +443,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2.2"
         }, 
         "ua50m": {
             "modeling_realm": "atmos", 
@@ -437,7 +461,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }
     }
 }

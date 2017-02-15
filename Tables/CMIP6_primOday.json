@@ -29,7 +29,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "tauuo": {
             "modeling_realm": "ocean", 
@@ -46,7 +47,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "so": {
             "modeling_realm": "ocean", 
@@ -63,7 +65,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "zos": {
             "modeling_realm": "ocean", 
@@ -80,7 +83,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "tauvo": {
             "modeling_realm": "ocean", 
@@ -97,7 +101,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "thetao": {
             "modeling_realm": "ocean", 
@@ -114,7 +119,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "2"
         }
     }
 }
