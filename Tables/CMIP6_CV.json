@@ -91,6 +91,26 @@
             "NUIST":"Nanjing University of Information Science & Technology, Nanjing, 210044, China"
         },
         "source_id":{
+            "HadGEM3-GC31-HM":{
+                "label_extended":"HadGEM3-GC3.1-N512ORCA025",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"MetUM-HadGEM3-GA7.1 (1024 x 768 N512; 85 levels; top level 85km)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2016",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"CICE-HadGEM3-GSI8 (ORCA025 tripolar primarily 0.25 deg latitude/longitude)",
+                "label":"HadGEM3-GC31-HM",
+                "institution_id":[
+                    "MOHC"
+                ],
+                "land_surface":"JULES-HadGEM3-GL7.1",
+                "aerosol":"UKCA-GLOMAP-mode",
+                "source_id":"HadGEM3-GC31-HM",
+                "ocean":"NEMO-HadGEM3-GO6.0 (ORCA025 tripolar primarily 0.25 deg latitude/longitude; 75 levels; top grid cell 0-1m)",
+                "land_ice":"None"
+            },
             "GISS-E2-1G":{
                 "label_extended":"GISS-E2.1G",
                 "atmospheric_chemistry":"varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)",
@@ -527,7 +547,18 @@
             "aero",
             "cfOff",
             "cfSites",
-            "fx"
+            "fx",
+            "prim1hrpt",
+            "prim3hr",
+            "prim3hrpt",
+            "prim6hr",
+            "prim6hrpt",
+            "primDay",
+            "primMon",
+            "primO6hr",
+            "primOday",
+            "primOmon",
+            "primSIday"
         ],
         "license":[
             [

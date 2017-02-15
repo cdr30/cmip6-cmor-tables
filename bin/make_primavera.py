@@ -16,6 +16,7 @@ REQUIREMENTS
 """
 from collections import OrderedDict
 import json
+import shutil
 import os
 
 from openpyxl import load_workbook
@@ -148,6 +149,7 @@ def main():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     excel_path = os.path.abspath(os.path.join(current_dir, '..',
                                               'etc', EXCEL_FILE))
+    table_dir = os.path.abspath(os.path.join(current_dir, '..', 'Tables'))
     data_req = load_workbook(excel_path)
 
     tables = ['primMon', 'primOmon', 'primDay', 'primOday', 'primSIday',
@@ -175,10 +177,13 @@ def main():
 
         # write the new JSON file for the PRIMAVERA table
         output_json_name = 'PRIMAVERA_{}.json'.format(table)
-        output_path = os.path.abspath(
-            os.path.join(current_dir, '..', 'Tables', output_json_name))
+        output_path = os.path.join(table_dir, output_json_name)
         with open(output_path, 'w') as dest_file:
             json.dump(output, dest_file, indent=4)
+
+    # Make a PRIMAVERA copy of CMIP6_coordinate.json
+    shutil.copyfile(os.path.join(table_dir, 'CMIP6_coordinate.json'),
+                    os.path.join(table_dir, 'PRIMAVERA_coordinate.json'))
 
 
 def _get_cell(row, column_name):
