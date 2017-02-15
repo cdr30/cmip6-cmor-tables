@@ -95,7 +95,7 @@ def generate_variable_entry(req_sheet, output):
     ordered_keys = ['modeling_realm', 'standard_name', 'units', 'cell_methods',
                     'cell_measures', 'long_name', 'comment', 'dimensions',
                     'out_name', 'type', 'positive', 'valid_min', 'valid_max',
-                    'ok_min_mean_abs', 'ok_max_mean_abs']
+                    'ok_min_mean_abs', 'ok_max_mean_abs', 'primavera_priority']
     key_order = {key: index for index, key in enumerate(ordered_keys)}
 
     for row in req_sheet.iter_rows(min_row=2):
@@ -116,7 +116,8 @@ def generate_variable_entry(req_sheet, output):
         # the data request
         direct_components = ['modeling_realm', 'standard_name', 'units',
                              'cell_methods', 'cell_measures', 'long_name',
-                             'comment', 'dimensions', 'type', 'positive']
+                             'comment', 'dimensions', 'type', 'positive',
+                             'primavera_priority']
 
         # add these standard components
         for cmpt in direct_components:
@@ -189,11 +190,11 @@ def _get_cell(row, column_name):
     :param str column_name: the name of the column
     :returns: cell.value
     """
-    column_names = {'long_name': 1, 'units': 2, 'comment': 3,
-                    'var_name': 5, 'standard_name': 6, 'cell_methods': 7,
-                    'positive': 8, 'type': 9, 'dimensions': 10,
-                    'cmor_name': 11, 'modeling_realm': 12, 'frequency': 13,
-                    'cell_measures': 14}
+    column_names = {'primavera_priority': 0, 'long_name': 1, 'units': 2,
+                    'comment': 3, 'var_name': 5, 'standard_name': 6,
+                    'cell_methods': 7, 'positive': 8, 'type': 9,
+                    'dimensions': 10, 'cmor_name': 11, 'modeling_realm': 12,
+                    'frequency': 13, 'cell_measures': 14}
 
     cell_str = str(row[column_names[column_name]].value)
 

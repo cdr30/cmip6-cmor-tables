@@ -29,7 +29,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }, 
         "vo": {
             "modeling_realm": "ocean", 
@@ -46,7 +47,8 @@
             "valid_min": "", 
             "valid_max": "", 
             "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": ""
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
         }
     }
 }
