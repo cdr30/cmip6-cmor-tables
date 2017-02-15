@@ -30,7 +30,7 @@ HEADER_COMMON = {
     'missing_value': '1e20',
     'product': 'output',
     'generic_levels': '',
-    'mip_era': 'CMIP6',
+    'mip_era': 'PRIMAVERA',
     'Conventions': 'CF-1.6 CMIP-6.0'
 }
 
@@ -52,10 +52,10 @@ def generate_header(table_name):
     header['table_id'] = 'Table {}'.format(table_name)
 
     # set the frequency
-    # 1 hour should be 0.041666 but existing files use 0.017361 and so have
-    # stuck with that
+    # there are no intervals for 1 hr in the existing tables and so this is
+    # always blank
     frequencies = {'mon': '30.00000', 'day': '1.00000', '6hr': '0.250000',
-                   '3hr': '0.125000', '1hr': '0.017361'}
+                   '3hr': '0.125000', '1hr': ''}
     for freq in frequencies:
         if freq in table_name.lower():
             header['frequency'] = freq
@@ -174,7 +174,7 @@ def main():
         output['Header']['realm'] = ' '.join(unique_realms.keys())
 
         # write the new JSON file for the PRIMAVERA table
-        output_json_name = 'CMIP6_{}.json'.format(table)
+        output_json_name = 'PRIMAVERA_{}.json'.format(table)
         output_path = os.path.abspath(
             os.path.join(current_dir, '..', 'Tables', output_json_name))
         with open(output_path, 'w') as dest_file:
