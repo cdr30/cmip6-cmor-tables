@@ -10,7 +10,7 @@
         "product": "output", 
         "approx_interval": "30.00000", 
         "generic_levels": "", 
-        "mip_era": "CMIP6", 
+        "mip_era": "PRIMAVERA", 
         "Conventions": "CF-1.6 CMIP-6.0"
     }, 
     "variable_entry": {

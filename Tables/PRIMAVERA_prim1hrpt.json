@@ -8,9 +8,9 @@
         "table_date": "19 December 2016", 
         "missing_value": "1e20", 
         "product": "output", 
-        "approx_interval": "0.017361", 
+        "approx_interval": "", 
         "generic_levels": "", 
-        "mip_era": "CMIP6", 
+        "mip_era": "PRIMAVERA", 
         "Conventions": "CF-1.6 CMIP-6.0"
     }, 
     "variable_entry": {
