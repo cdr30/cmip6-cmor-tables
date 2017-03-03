@@ -1,11 +1,11 @@
 {
     "Header": {
-        "data_specs_version": "01.beta.45", 
-        "table_id": "Table cfDay", 
+        "data_specs_version": "01.00.03", 
+        "table_id": "Table CFday", 
         "realm": "atmos", 
         "frequency": "day", 
         "cmor_version": "3.2", 
-        "table_date": "19 December 2016", 
+        "table_date": "24 February 2017", 
         "missing_value": "1e20", 
         "product": "output", 
         "approx_interval": "1.00000", 
@@ -157,7 +157,7 @@
             "cell_methods": "time: mean", 
             "cell_measures": "area: areacella", 
             "long_name": "Ice Water Path", 
-            "comment": "Mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column). Includes precipitating frozen hydrometeors ONLY if the precipitating hydrometeor affects the calculation of radiative transfer in model.", 
+            "comment": "calculate mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column). This includes precipitating frozen hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.", 
             "dimensions": "longitude latitude time", 
             "out_name": "clivi", 
             "type": "real", 

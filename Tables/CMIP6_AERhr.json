@@ -1,14 +1,14 @@
 {
     "Header": {
-        "data_specs_version": "01.beta.45", 
-        "table_id": "Table aerhourly", 
+        "data_specs_version": "01.00.03", 
+        "table_id": "Table AERhr", 
         "realm": "aerosol", 
         "frequency": "hr", 
         "cmor_version": "3.2", 
-        "table_date": "19 December 2016", 
+        "table_date": "24 February 2017", 
         "missing_value": "1e20", 
         "product": "output", 
-        "approx_interval": "0.017361", 
+        "approx_interval": "", 
         "generic_levels": "", 
         "mip_era": "CMIP6", 
         "Conventions": "CF-1.6 CMIP-6.0"
@@ -82,16 +82,16 @@
             "ok_min_mean_abs": "", 
             "ok_max_mean_abs": ""
         }, 
-        "sfta": {
+        "tas": {
             "modeling_realm": "aerosol", 
             "standard_name": "air_temperature", 
             "units": "K", 
             "cell_methods": "time: mean", 
             "cell_measures": "area: areacella", 
             "long_name": "Surface Temperature", 
-            "comment": "Temperature at surface", 
+            "comment": "near-surface (usually, 2 meter) air temperature", 
             "dimensions": "longitude latitude time", 
-            "out_name": "sfta", 
+            "out_name": "tas", 
             "type": "float", 
             "positive": "", 
             "valid_min": "", 
