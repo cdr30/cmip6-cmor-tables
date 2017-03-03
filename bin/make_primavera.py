@@ -25,9 +25,9 @@ from openpyxl import load_workbook
 EXCEL_FILE = 'PRIMAVERA_MS21_DRQ_0-beta-37.5.xlsx'
 
 HEADER_COMMON = {
-    'data_specs_version': '01.beta.45',
+    'data_specs_version': '01.00.03',
     'cmor_version': '3.2',
-    'table_date': '19 December 2016',
+    'table_date': '24 February 2017',
     'missing_value': '1e20',
     'product': 'output',
     'generic_levels': '',
@@ -152,9 +152,9 @@ def main():
     table_dir = os.path.abspath(os.path.join(current_dir, '..', 'Tables'))
     data_req = load_workbook(excel_path)
 
-    tables = ['primMon', 'primOmon', 'primDay', 'primOday', 'primSIday',
-              'primO6hr', 'prim6hr', 'prim6hrpt', 'prim3hr', 'prim3hrpt',
-              'prim1hrpt']
+    tables = ['PrimMon', 'PrimOmon', 'PrimDay', 'PrimOday', 'PrimSIday',
+              'PrimO6hr', 'Prim6hr', 'Prim6hrpt', 'Prim3hr', 'Prim3hrpt',
+              'Prim1hrpt', 'PrimmonZ', 'PrimdayPt']
 
     for table in tables:
         # create a blank output dictionary
