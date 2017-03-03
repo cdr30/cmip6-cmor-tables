@@ -152,9 +152,9 @@ def main():
     table_dir = os.path.abspath(os.path.join(current_dir, '..', 'Tables'))
     data_req = load_workbook(excel_path)
 
-    tables = ['PrimMon', 'PrimOmon', 'PrimDay', 'PrimOday', 'PrimSIday',
-              'PrimO6hr', 'Prim6hr', 'Prim6hrpt', 'Prim3hr', 'Prim3hrpt',
-              'Prim1hrpt', 'PrimmonZ', 'PrimdayPt']
+    tables = ['Primmon', 'PrimOmon', 'Primday', 'PrimOday', 'PrimSIday',
+              'PrimO6hr', 'Prim6hr', 'Prim6hrPt', 'Prim3hr', 'Prim3hrPt',
+              'Prim1hr', 'PrimmonZ', 'PrimdayPt']
 
     for table in tables:
         # create a blank output dictionary
