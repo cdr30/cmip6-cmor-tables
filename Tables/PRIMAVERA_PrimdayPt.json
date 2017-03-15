@@ -2,7 +2,7 @@
     "Header": {
         "data_specs_version": "01.00.03", 
         "table_id": "Table PrimdayPt", 
-        "realm": "", 
+        "realm": "atmos", 
         "frequency": "day", 
         "cmor_version": "3.2", 
         "table_date": "24 February 2017", 
@@ -15,7 +15,7 @@
     }, 
     "variable_entry": {
         "va": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "northward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: point", 
@@ -33,7 +33,7 @@
             "primavera_priority": "1"
         }, 
         "ua": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "eastward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: point", 

@@ -90,9 +90,50 @@
             "INM":"Institute for Numerical Mathematics, Moscow 119991, Russia",
             "NCC":"NorESM Climate modeling Consortium consisting of CICERO (Center for International Climate and Environmental Research, Oslo 0349),MET-Norway (Norwegian Meteorological Institute, Oslo 0313),NERSC (Nansen Environmental and Remote Sensing Center, Bergen 5006),NILU (Norwegian Institute for Air Research, Kjeller 2027),UiB (University of Bergen, Bergen 5007),UiO (University of Oslo, Oslo 0313) and UNI (Uni Research, Bergen 5008), Norway",
             "NUIST":"Nanjing University of Information Science & Technology, Nanjing, 210044, China",
-            "FIO-RONM":"FIO (First Institute of Oceanography, State Oceanic Administration, Qingdao 266061, China), RONM (Laboratory for Regional Oceanography and Numerical Modeling, Qingdao National Laboratory for Marine Science and Technology, Qingdao 266237, China)"
+            "FIO-RONM":"FIO (First Institute of Oceanography, State Oceanic Administration, Qingdao 266061, China), RONM (Laboratory for Regional Oceanography and Numerical Modeling, Qingdao National Laboratory for Marine Science and Technology, Qingdao 266237, China)",
+            "ECMWF":"ECMWF (European Centre for Medium-Range Weather Forecasts, Reading RG2 9AX, United Kingdom)"
         },
         "source_id":{
+            "ECMWF-IFS-LR":{
+                "label_extended":"ECMWF-IFS-CY43R1 at low resolution",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"IFS CY43R1 (TCo199, cubic octahedral reduced Gaussian grid equivalent to 200 latitude lines between the pole and equator; 91 levels; top level 1 hPa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM2 (same version as ocean)",
+                "label":"ECMWF-IFS-LR",
+                "institution_id":[
+                    "ECMWF"
+                ],
+                "land_surface":"H-TESSEL (same version as atmosphere)",
+                "aerosol":"None",
+                "source_id":"ECMWF-IFS-LR",
+                "ocean":"NEMO3.4 (ORCA1: tripolar, 360x200; 75 levels; top grid cell 5m)",
+                "land_ice":"None"
+            },
+            "ECMWF-IFS-HR":{
+                "label_extended":"ECMWF-IFS-CY43R1 at high resolution",
+                "atmospheric_chemistry":"None",
+                "atmosphere":"IFS CY43R1 (TCo399, cubic octahedral reduced Gaussian grid equivalent to 400 latitude lines between the pole and equator; 91 levels; top level 1 hPa)",
+                "ocean_biogeochemistry":"None",
+                "release_year":"2017",
+                "cohort":[
+                    ""
+                ],
+                "sea_ice":"LIM2 (same version as ocean)",
+                "label":"ECMWF-IFS-HR",
+                "institution_id":[
+                    "ECMWF"
+                ],
+                "land_surface":"H-TESSEL (same version as atmosphere)",
+                "aerosol":"None",
+                "source_id":"ECMWF-IFS-HR",
+                "ocean":"NEMO3.4 (ORCA025: tripolar, 1442x1921; 75 levels; top grid cell 5m)",
+                "land_ice":"None"
+            },
             "HadGEM3-GC31-HM":{
                 "label_extended":"HadGEM3-GC3.1-N512ORCA025",
                 "atmospheric_chemistry":"None",

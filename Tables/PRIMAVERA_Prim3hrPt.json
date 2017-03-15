@@ -16,7 +16,7 @@
     "variable_entry": {
         "vortmean": {
             "modeling_realm": "atmos", 
-            "standard_name": "", 
+            "standard_name": "atmosphere_relative_vorticity", 
             "units": "s-1", 
             "cell_methods": "time: point", 
             "cell_measures": "area: areacella", 
