@@ -2,7 +2,7 @@
     "Header": {
         "data_specs_version": "01.00.03", 
         "table_id": "Table Primday", 
-        "realm": " atmos land", 
+        "realm": "atmos land", 
         "frequency": "day", 
         "cmor_version": "3.2", 
         "table_date": "24 February 2017", 
@@ -14,26 +14,8 @@
         "Conventions": "CF-1.6 CMIP-6.0"
     }, 
     "variable_entry": {
-        "zg19": {
-            "modeling_realm": "", 
-            "standard_name": "geopotential_height", 
-            "units": "m", 
-            "cell_methods": "time: mean", 
-            "cell_measures": "area: areacella", 
-            "long_name": "Geopotential Height", 
-            "comment": "", 
-            "dimensions": "longitude latitude plev19 time", 
-            "out_name": "zg19", 
-            "type": "", 
-            "positive": "", 
-            "valid_min": "", 
-            "valid_max": "", 
-            "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": "", 
-            "primavera_priority": "2"
-        }, 
         "va23": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "northward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: mean", 
@@ -50,26 +32,8 @@
             "ok_max_mean_abs": "", 
             "primavera_priority": "3"
         }, 
-        "zg10": {
-            "modeling_realm": "", 
-            "standard_name": "geopotential_height", 
-            "units": "m", 
-            "cell_methods": "time: mean", 
-            "cell_measures": "area: areacella", 
-            "long_name": "Geopotential Height", 
-            "comment": "", 
-            "dimensions": "longitude latitude plev10 time", 
-            "out_name": "zg10", 
-            "type": "", 
-            "positive": "", 
-            "valid_min": "", 
-            "valid_max": "", 
-            "ok_min_mean_abs": "", 
-            "ok_max_mean_abs": "", 
-            "primavera_priority": "1"
-        }, 
         "hus10": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "specific_humidity", 
             "units": "1.0", 
             "cell_methods": "time: mean", 
@@ -87,7 +51,7 @@
             "primavera_priority": "1"
         }, 
         "ua10": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "eastward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: mean", 
@@ -105,7 +69,7 @@
             "primavera_priority": "1"
         }, 
         "hus19": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "specific_humidity", 
             "units": "1.0", 
             "cell_methods": "time: mean", 
@@ -123,7 +87,7 @@
             "primavera_priority": "2"
         }, 
         "ua19": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "eastward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: mean", 
@@ -141,7 +105,7 @@
             "primavera_priority": "2"
         }, 
         "wap23": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "lagrangian_tendency_of_air_pressure", 
             "units": "Pa s-1", 
             "cell_methods": "time: mean", 
@@ -159,7 +123,7 @@
             "primavera_priority": "3"
         }, 
         "hus23": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "specific_humidity", 
             "units": "1.0", 
             "cell_methods": "time: mean", 
@@ -231,7 +195,7 @@
             "primavera_priority": "1"
         }, 
         "ta23": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "air_temperature", 
             "units": "K", 
             "cell_methods": "time: mean", 
@@ -285,7 +249,7 @@
             "primavera_priority": "1"
         }, 
         "zg23": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "geopotential_height", 
             "units": "m", 
             "cell_methods": "time: mean", 
@@ -303,7 +267,7 @@
             "primavera_priority": "3"
         }, 
         "va19": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "northward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: mean", 
@@ -339,7 +303,7 @@
             "primavera_priority": "1"
         }, 
         "va10": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "northward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: mean", 
@@ -357,7 +321,7 @@
             "primavera_priority": "1"
         }, 
         "ta19": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "air_temperature", 
             "units": "K", 
             "cell_methods": "time: mean", 
@@ -375,7 +339,7 @@
             "primavera_priority": "2"
         }, 
         "ta10": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "air_temperature", 
             "units": "K", 
             "cell_methods": "time: mean", 
@@ -411,7 +375,7 @@
             "primavera_priority": "1"
         }, 
         "ua23": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "eastward_wind", 
             "units": "m s-1", 
             "cell_methods": "time: mean", 
@@ -429,7 +393,7 @@
             "primavera_priority": "3"
         }, 
         "wap19": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "lagrangian_tendency_of_air_pressure", 
             "units": "Pa s-1", 
             "cell_methods": "time: mean", 
@@ -447,7 +411,7 @@
             "primavera_priority": "2"
         }, 
         "wap10": {
-            "modeling_realm": "", 
+            "modeling_realm": "atmos", 
             "standard_name": "lagrangian_tendency_of_air_pressure", 
             "units": "Pa s-1", 
             "cell_methods": "time: mean", 
