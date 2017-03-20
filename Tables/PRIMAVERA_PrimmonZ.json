@@ -70,7 +70,7 @@
         }, 
         "vstarbar": {
             "modeling_realm": "atmos", 
-            "standard_name": "northward_transformed_eulerian_mean_air_velocity?", 
+            "standard_name": "northward_transformed_eulerian_mean_air_velocity", 
             "units": "m s-1", 
             "cell_methods": "time: mean", 
             "cell_measures": "area: areacella", 
