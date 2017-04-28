@@ -22,7 +22,7 @@ import os
 from openpyxl import load_workbook
 
 
-EXCEL_FILE = 'PRIMAVERA_Data_Request_v1_0_3.xlsx'
+EXCEL_FILE = 'PRIMAVERA_Data_Request_v01_00_07.xlsx'
 
 HEADER_COMMON = {
     'data_specs_version': '01.00.03',
