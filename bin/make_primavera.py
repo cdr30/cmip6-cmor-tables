@@ -25,14 +25,14 @@ from openpyxl import load_workbook
 EXCEL_FILE = 'PRIMAVERA_Data_Request_v01_00_07.xlsx'
 
 HEADER_COMMON = {
-    'data_specs_version': '01.00.03',
+    'data_specs_version': '01.00.07',
     'cmor_version': '3.2',
-    'table_date': '24 February 2017',
+    'table_date': '22 April 2017',
     'missing_value': '1e20',
-    'product': 'output',
+    'product': 'model-output',
     'generic_levels': '',
     'mip_era': 'PRIMAVERA',
-    'Conventions': 'CF-1.6 CMIP-6.0'
+    'Conventions': 'CF-1.7 CMIP-6.0'
 }
 
 
