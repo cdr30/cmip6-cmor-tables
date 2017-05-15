@@ -50,7 +50,7 @@
             "ok_max_mean_abs": "", 
             "primavera_priority": "1"
         }, 
-        "siacrossline": {
+        "simassacrossline": {
             "modeling_realm": "seaIce", 
             "standard_name": "sea_ice_transport_across_line", 
             "units": "kg s-1", 
@@ -59,7 +59,7 @@
             "long_name": "Sea ice mass flux through straits", 
             "comment": "net (sum of transport in all directions) sea ice mass transport through the following four passages, positive into the Arctic Ocean 1. Fram Strait = (11.5oW,81.3oN to (10.5oE,79.6oN) 2. Canadian Archipelego = (128.2oW,70.6oN) to (59.3oW,82.1oN) 3. Barents opening = (16.8oE,76.5oN) to (19.2oE,70.2oN) 4. Bering Strait = (171oW,66.2oN) to (166oW,65oN)", 
             "dimensions": "latitude basin time", 
-            "out_name": "siacrossline", 
+            "out_name": "simassacrossline", 
             "type": "", 
             "positive": "", 
             "valid_min": "", 
