@@ -2,7 +2,7 @@
     "Header": {
         "data_specs_version": "01.00.07", 
         "table_id": "Table Prim6hrPt", 
-        "realm": "atmos", 
+        "realm": "land atmos ocean", 
         "frequency": "6hr", 
         "cmor_version": "3.2", 
         "table_date": "22 April 2017", 
@@ -14,6 +14,24 @@
         "Conventions": "CF-1.7 CMIP-6.0"
     }, 
     "variable_entry": {
+        "tso": {
+            "modeling_realm": "ocean", 
+            "standard_name": "sea_surface_temperature", 
+            "units": "K", 
+            "cell_methods": "area: mean where sea time: point", 
+            "cell_measures": "area: areacella", 
+            "long_name": "Sea Surface Temperature", 
+            "comment": "temperature of surface of open ocean, sampled synoptically.", 
+            "dimensions": "longitude latitude time1", 
+            "out_name": "tso", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
+        }, 
         "ua100m": {
             "modeling_realm": "atmos", 
             "standard_name": "eastward_wind", 
@@ -68,6 +86,24 @@
             "ok_max_mean_abs": "", 
             "primavera_priority": "1"
         }, 
+        "ps": {
+            "modeling_realm": "atmos", 
+            "standard_name": "surface_air_pressure", 
+            "units": "Pa", 
+            "cell_methods": "area: mean time: point", 
+            "cell_measures": "area: areacella", 
+            "long_name": "Surface Air Pressure", 
+            "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates", 
+            "dimensions": "longitude latitude time1", 
+            "out_name": "ps", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
+        }, 
         "hus1000": {
             "modeling_realm": "atmos", 
             "standard_name": "specific_humidity", 
@@ -104,6 +140,24 @@
             "ok_max_mean_abs": "", 
             "primavera_priority": "1"
         }, 
+        "clt": {
+            "modeling_realm": "atmos", 
+            "standard_name": "cloud_area_fraction", 
+            "units": "%", 
+            "cell_methods": "area: time: point", 
+            "cell_measures": "area: areacella", 
+            "long_name": "Total Cloud Fraction", 
+            "comment": "Total cloud area fraction for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.", 
+            "dimensions": "longitude latitude time1", 
+            "out_name": "clt", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
+        }, 
         "ua1000": {
             "modeling_realm": "atmos", 
             "standard_name": "eastward_wind", 
@@ -114,6 +168,24 @@
             "comment": "", 
             "dimensions": "longitude latitude p1000 time1", 
             "out_name": "ua1000", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": "", 
+            "primavera_priority": "1"
+        }, 
+        "tslsi": {
+            "modeling_realm": "land", 
+            "standard_name": "surface_temperature", 
+            "units": "K", 
+            "cell_methods": "area: mean time: point", 
+            "cell_measures": "area: areacella", 
+            "long_name": "Surface Temperature Where Land or Sea Ice", 
+            "comment": "\"skin\" temperature of all surfaces except open ocean.", 
+            "dimensions": "longitude latitude time1", 
+            "out_name": "tslsi", 
             "type": "real", 
             "positive": "", 
             "valid_min": "", 
