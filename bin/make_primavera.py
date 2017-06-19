@@ -52,17 +52,18 @@ def generate_header(table_name):
     # set the table name
     header['table_id'] = 'Table {}'.format(table_name)
 
-    # set the frequency
+    # determine the frequency
     # there are no intervals for 1 hr in the existing tables and so this is
     # always blank
-    frequencies = {'mon': '30.00000', 'day': '1.00000', '6hr': '0.250000',
+    intervals = {'mon': '30.00000', 'day': '1.00000', '6hr': '0.250000',
                    '3hr': '0.125000', '1hr': ''}
-    for freq in frequencies:
+    frequency = None
+    for freq in intervals:
         if freq in table_name.lower():
-            header['frequency'] = freq
+            frequency = freq
             break
 
-    if 'frequency' not in header:
+    if not frequency:
         msg = ('Unable to determine frequency for table name: {}'.
                format(table_name))
         raise ValueError(msg)
@@ -71,9 +72,9 @@ def generate_header(table_name):
     header['realm'] = ''
 
     # set the approx_interval
-    header['approx_interval'] = frequencies[header['frequency']]
+    header['approx_interval'] = intervals[frequency]
 
-    ordered_keys = ['data_specs_version', 'table_id', 'realm', 'frequency',
+    ordered_keys = ['data_specs_version', 'table_id', 'realm',
                     'cmor_version', 'table_date', 'missing_value', 'product',
                     'approx_interval', 'generic_levels', 'mip_era',
                     'Conventions']
@@ -93,10 +94,11 @@ def generate_variable_entry(req_sheet, output):
     :param dict output: The `variable_entry` dictionary from the output
         dictionary that will be converted to a JSON file
     """
-    ordered_keys = ['modeling_realm', 'standard_name', 'units', 'cell_methods',
-                    'cell_measures', 'long_name', 'comment', 'dimensions',
-                    'out_name', 'type', 'positive', 'valid_min', 'valid_max',
-                    'ok_min_mean_abs', 'ok_max_mean_abs', 'primavera_priority']
+    ordered_keys = ['frequency', 'modeling_realm', 'standard_name', 'units',
+                    'cell_methods', 'cell_measures', 'long_name', 'comment',
+                    'dimensions', 'out_name', 'type', 'positive', 'valid_min',
+                    'valid_max', 'ok_min_mean_abs', 'ok_max_mean_abs',
+                    'primavera_priority']
     key_order = {key: index for index, key in enumerate(ordered_keys)}
 
     for row in req_sheet.iter_rows(min_row=2):
@@ -118,7 +120,7 @@ def generate_variable_entry(req_sheet, output):
         direct_components = ['modeling_realm', 'standard_name', 'units',
                              'cell_methods', 'cell_measures', 'long_name',
                              'comment', 'dimensions', 'type', 'positive',
-                             'primavera_priority']
+                             'primavera_priority', 'frequency']
 
         # add these standard components
         for cmpt in direct_components:
@@ -199,7 +201,7 @@ def _get_cell(row, column_name):
                     'comment': 3, 'var_name': 5, 'standard_name': 6,
                     'cell_methods': 7, 'positive': 8, 'type': 9,
                     'dimensions': 10, 'cmor_name': 11, 'modeling_realm': 12,
-                    'frequency': 13, 'cell_measures': 14}
+                    'frequency': 13, 'cell_measures': 14, 'frequency': 13}
 
     cell_str = str(row[column_names[column_name]].value)
 
