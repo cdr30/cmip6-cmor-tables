@@ -3,7 +3,6 @@
         "data_specs_version": "01.00.07", 
         "table_id": "Table PrimOday", 
         "realm": "ocean", 
-        "frequency": "day", 
         "cmor_version": "3.2", 
         "table_date": "22 April 2017", 
         "missing_value": "1e20", 
@@ -15,6 +14,7 @@
     }, 
     "variable_entry": {
         "mlotst": {
+            "frequency": "day", 
             "modeling_realm": "ocean", 
             "standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t", 
             "units": "m", 
@@ -33,6 +33,7 @@
             "primavera_priority": "1"
         }, 
         "tauuo": {
+            "frequency": "day", 
             "modeling_realm": "ocean", 
             "standard_name": "surface_downward_x_stress", 
             "units": "N m-2", 
@@ -51,6 +52,7 @@
             "primavera_priority": "1"
         }, 
         "so": {
+            "frequency": "day", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_salinity", 
             "units": "0.001", 
@@ -69,6 +71,7 @@
             "primavera_priority": "1"
         }, 
         "zos": {
+            "frequency": "day", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_surface_height_above_geoid", 
             "units": "m", 
@@ -87,6 +90,7 @@
             "primavera_priority": "1"
         }, 
         "tauvo": {
+            "frequency": "day", 
             "modeling_realm": "ocean", 
             "standard_name": "surface_downward_y_stress", 
             "units": "N m-2", 
@@ -105,6 +109,7 @@
             "primavera_priority": "1"
         }, 
         "thetao": {
+            "frequency": "day", 
             "modeling_realm": "ocean", 
             "standard_name": "sea_water_potential_temperature", 
             "units": "degree_Celsius", 
