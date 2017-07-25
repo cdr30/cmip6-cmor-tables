@@ -107,7 +107,7 @@
                     "ECMWF"
                 ],
                 "source_id":"ECMWF-IFS-LR",
-
+                "source":"ECMWF-IFS-LR (2017): \natmos: IFS (IFS CY43R1, Tco199 cubic octahedral reduced Gaussian grid equivalent to 200 lines between the pole and equator using 4 grid-points per minimum wavelength; 91 levels; top level 1 hPa\nocean: NEMO3.4 (NEMO v3.4; ORCA1 tripolar grid; 362 x 292 longitude/latitude; 75 levels; top grid cell 1m)\nseaIce: LIM2 (LIM v2; ORCA1 tripolar grid; 362 x 292 longitude/latitude)\nland: HTESSEL (as implemented in IFS CY43R1)\naerosol: None\natmosChem: None\nocnBgChem: None\nlandIce: None\n"
             },
             "ECMWF-IFS-HR":{
                 "activity_participation":[
